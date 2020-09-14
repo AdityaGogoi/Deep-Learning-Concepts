@@ -16,3 +16,7 @@ Here are the sections with a description for each notebook contained in them:
   2. We will then create a Neral Network.
   3. We will train our model on the training dataset.
   4. We will then evaluate our model on the test dataset.
+
+#### 2. Finding Edges and Custom Kernels
+* In this notebook, we will create our own convolutional filters and learn how they work on an image to obtain patterns.
+* We will be using the OpenCV library to get a standard filter to detect horizontal and vertical edges. Then we will modify it and see if it improves the pattern gathering.
