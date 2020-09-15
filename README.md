@@ -20,3 +20,7 @@ Here are the sections with a description for each notebook contained in them:
 #### 2. Finding Edges and Custom Kernels
 * In this notebook, we will create our own convolutional filters and learn how they work on an image to obtain patterns.
 * We will be using the OpenCV library to get a standard filter to detect horizontal and vertical edges. Then we will modify it and see if it improves the pattern gathering.
+
+#### 3. Layer Visualizations
+* In these notebooks, we will understand how the convolution and pooling layers work in a CNN. 
+* We will visualize the outputs of these layers to understand what role they play in CNNs i.e. bringing out the patterns in an image and removing unnecessary data.
