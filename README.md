@@ -24,3 +24,9 @@ Here are the sections with a description for each notebook contained in them:
 #### 3. Layer Visualizations
 * In these notebooks, we will understand how the convolution and pooling layers work in a CNN. 
 * We will visualize the outputs of these layers to understand what role they play in CNNs i.e. bringing out the patterns in an image and removing unnecessary data.
+
+#### 4. CNNs in PyTorch
+* We will be using CNN in PyTorch to classify images from the CIFAR-10 database.
+* The images in this database include small color images that belong to one of ten classes.
+* We will introduce CNNs in PyTorch by using a simple CNN model to train and predict on this database.
+* Later we will visualize some of the output to see how accurate our predictions are.
