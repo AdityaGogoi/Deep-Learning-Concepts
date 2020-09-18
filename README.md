@@ -35,3 +35,7 @@ Here are the sections with a description for each notebook contained in them:
 * We will use Transfer Learning to make our own model more accurate.
 * We will load a pre-trained VGG Net, freeze its weights and add our own linear layer at the end of the model.
 * Then we will train this model for a couple of epochs and then test its performance.
+
+#### 6. Weight Initialization
+* Here we will learn how crucial the initial weights are to a network for a profitable training cycle.
+* We will try different ways of weight initialization for a CNN and see how it affects the training and final performance of the model. We will use the MNIST data for training.
