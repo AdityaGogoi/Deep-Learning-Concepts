@@ -30,3 +30,8 @@ Here are the sections with a description for each notebook contained in them:
 * The images in this database include small color images that belong to one of ten classes.
 * We will introduce CNNs in PyTorch by using a simple CNN model to train and predict on this database.
 * Later we will visualize some of the output to see how accurate our predictions are.
+
+#### 5. Transfer Learning
+* We will use Transfer Learning to make our own model more accurate.
+* We will load a pre-trained VGG Net, freeze its weights and add our own linear layer at the end of the model.
+* Then we will train this model for a couple of epochs and then test its performance.
