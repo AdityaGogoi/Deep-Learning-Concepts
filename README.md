@@ -39,3 +39,7 @@ Here are the sections with a description for each notebook contained in them:
 #### 6. Weight Initialization
 * Here we will learn how crucial the initial weights are to a network for a profitable training cycle.
 * We will try different ways of weight initialization for a CNN and see how it affects the training and final performance of the model. We will use the MNIST data for training.
+
+#### 7. Linear Autoencoder
+* In this notebook, we will define a linear autoencoder, which can be used for compression (i.e. representing a large raw data like an image in an efficient manner) and then reconstruction (i.e. recreating original raw data from compressed version).
+* We will use the autoencoder to compress and then reconstruct images from the MNIST dataset.
