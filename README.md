@@ -43,3 +43,7 @@ Here are the sections with a description for each notebook contained in them:
 #### 7. Linear Autoencoder
 * In this notebook, we will define a linear autoencoder, which can be used for compression (i.e. representing a large raw data like an image in an efficient manner) and then reconstruction (i.e. recreating original raw data from compressed version).
 * We will use the autoencoder to compress and then reconstruct images from the MNIST dataset.
+
+#### 8. Convolutional Autoencoder
+* We will improve upon the previous autoencoder by adding convolutional layers to it, so that the compression and reconstruction of images is of better quality. This is included in the **Convolutional Autoencoder** notebook.
+* The transpose convolutional layers used in the **Convolutional Autoencoder** notebook can lead to undesired effects like checkerboard patterns. To avoid this, we can resize the layers using nearest neighbor or bilinear interpolation (i.e. upsampling) followed by convolutional layer. This is demonstrated in the **Upsampling** notebook.
