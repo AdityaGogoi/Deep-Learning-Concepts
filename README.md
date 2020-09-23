@@ -47,3 +47,8 @@ Here are the sections with a description for each notebook contained in them:
 #### 8. Convolutional Autoencoder
 * We will improve upon the previous autoencoder by adding convolutional layers to it, so that the compression and reconstruction of images is of better quality. This is included in the **Convolutional Autoencoder** notebook.
 * The transpose convolutional layers used in the **Convolutional Autoencoder** notebook can lead to undesired effects like checkerboard patterns. To avoid this, we can resize the layers using nearest neighbor or bilinear interpolation (i.e. upsampling) followed by convolutional layer. This is demonstrated in the **Upsampling** notebook.
+
+#### 9. De-noising Autoencoder
+* We will train a Convolutional Autoencoder to remove noise from images in the MNIST dataset.
+* First, we will create copies of the images and add noise to it.
+* Next, we will train the Autoencoder with the noisy images as input and clean images as targets.
