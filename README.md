@@ -52,3 +52,9 @@ Here are the sections with a description for each notebook contained in them:
 * We will train a Convolutional Autoencoder to remove noise from images in the MNIST dataset.
 * First, we will create copies of the images and add noise to it.
 * Next, we will train the Autoencoder with the noisy images as input and clean images as targets.
+
+#### 10. Style Transfer
+* In this notebook, we will apply style transfer from one image into the content of other images.
+* We will load in a pre-trained VGG Net and freeze select layers to be used as a feature-extractor.
+* The we will load in the content and style images. We will use different layers of the model to extract content style from the respective images.
+* After calculating the Gram Matrix for convolutional layers, we will start implementing the style on a target image, with Content, Style and Total Loss to check if we are getting an accurate Transfer.
