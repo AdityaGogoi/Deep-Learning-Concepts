@@ -4,6 +4,15 @@ This repository contains Jupyter notebooks with Deep Learning concepts gathered 
 The repository is divided into sections pertaining to a specific field of Deep learning. Each section will contain mostly Jupyter notebooks that demonstrate the implementation of a particular Deep Learning model for a particualr use-case. There might be supporting files like Python scripts and images to support the notebook as well.
 
 Here are the sections with a description for each notebook contained in them:
+## Section 2 - Deep Learning with PyTorch
+* We will start building Neural Networks using the **PyTorch** library, which was created by the **Facebook AI Research Team** and is now open source.
+* PyTorch is a great framework for deep learning and mainly works the **tensor** data structure. It just makes the entire process of creating multiple layers of Neural Networks a very simple process.
+
+#### 1. Tensors in PyTorch
+* We will introduce PyTorch, a framework for building and training Neural Networks.
+* PyTorch uses tensors as its standard data structure, which is very similar to NumPy array.
+* It makes manipulation and movement of large arrays really simple to execute. It also has modules for automatically calculating gradients and building neural networks.
+* We will understand how tensors work and implement a standard neural network using PyTorch.
 
 ## Section 3 - Convolutional Neural Networks
 * CNNs (or ConvNet) are a class of Deep Learning models that are mostly applied for analyzing visual data like images videos, etc.
