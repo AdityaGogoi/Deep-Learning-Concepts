@@ -14,6 +14,11 @@ Here are the sections with a description for each notebook contained in them:
 * It makes manipulation and movement of large arrays really simple to execute. It also has modules for automatically calculating gradients and building neural networks.
 * We will understand how tensors work and implement a standard neural network using PyTorch.
 
+#### 2. Neural Networks in PyTorch
+* Deep Learning Networks contain dozens to hundreds of Neural Network layers. Hence, implementing it manually is a very cumbersome task.
+* That is why we have libraries like PyTorch, which we will use in this notebook to implement a Deep Learning Network.
+* We will use this model to identify digits from the MNIST dataset.
+
 ## Section 3 - Convolutional Neural Networks
 * CNNs (or ConvNet) are a class of Deep Learning models that are mostly applied for analyzing visual data like images videos, etc.
 * They usually consist of Multi-Layer Perceptrons (MLP), which are fully-connected Neral Networks, preceded by Convolution Layer(s), which recognizes the patterns in an image.
