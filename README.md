@@ -19,6 +19,11 @@ Here are the sections with a description for each notebook contained in them:
 * That is why we have libraries like PyTorch, which we will use in this notebook to implement a Deep Learning Network.
 * We will use this model to identify digits from the MNIST dataset.
 
+#### 3. Training Neural Networks
+* This notebook will explain the training process of a Neural Network.
+* We will cover concepts like Types of Losses, Loss Function, Gradient Descent, and Backpropagation. We will also understand their role in the training of a Deep Neural Network.
+* We will compare the prediction accuracy between a model that was naively trained from previous notebook and the current model whose training parameters are tuned.
+
 ## Section 3 - Convolutional Neural Networks
 * CNNs (or ConvNet) are a class of Deep Learning models that are mostly applied for analyzing visual data like images videos, etc.
 * They usually consist of Multi-Layer Perceptrons (MLP), which are fully-connected Neral Networks, preceded by Convolution Layer(s), which recognizes the patterns in an image.
