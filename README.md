@@ -24,6 +24,11 @@ Here are the sections with a description for each notebook contained in them:
 * We will cover concepts like Types of Losses, Loss Function, Gradient Descent, and Backpropagation. We will also understand their role in the training of a Deep Neural Network.
 * We will compare the prediction accuracy between a model that was naively trained from previous notebook and the current model whose training parameters are tuned.
 
+#### 4. Fashion-MNIST
+* The usual MNIST dataset is pretty trivial in terms of deep-learning networks to train on, and we can easily achieve accuracy grater than 97%.
+* The Fashion-MNIST dataset set of 28x28 greyscale images of clothes. It is more complex than MNIST, so it is a better test of our Neural Networks performance and a better representation of real-world datasets.
+* We will perform the same tasks as in the previous notebook, but our model architecture will change to accomodate the more complex dataset.
+
 ## Section 3 - Convolutional Neural Networks
 * CNNs (or ConvNet) are a class of Deep Learning models that are mostly applied for analyzing visual data like images videos, etc.
 * They usually consist of Multi-Layer Perceptrons (MLP), which are fully-connected Neral Networks, preceded by Convolution Layer(s), which recognizes the patterns in an image.
