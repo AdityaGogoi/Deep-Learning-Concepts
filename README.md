@@ -29,6 +29,10 @@ Here are the sections with a description for each notebook contained in them:
 * The Fashion-MNIST dataset set of 28x28 greyscale images of clothes. It is more complex than MNIST, so it is a better test of our Neural Networks performance and a better representation of real-world datasets.
 * We will perform the same tasks as in the previous notebook, but our model architecture will change to accomodate the more complex dataset.
 
+#### 5. Inference and Validation
+* In this notebook, we will test our trained model via the validation step, where the model predicts on data it has never seen before.
+* We will also cover concepts like overfitting, dropout and other terms that will help us to validate our model.
+
 ## Section 3 - Convolutional Neural Networks
 * CNNs (or ConvNet) are a class of Deep Learning models that are mostly applied for analyzing visual data like images videos, etc.
 * They usually consist of Multi-Layer Perceptrons (MLP), which are fully-connected Neral Networks, preceded by Convolution Layer(s), which recognizes the patterns in an image.
