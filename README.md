@@ -33,6 +33,10 @@ Here are the sections with a description for each notebook contained in them:
 * In this notebook, we will test our trained model via the validation step, where the model predicts on data it has never seen before.
 * We will also cover concepts like overfitting, dropout and other terms that will help us to validate our model.
 
+#### 6. Saving and Loading Models
+* Here we will learn to save our trained models. In general, we won't want to train a model everytime you need it.
+* Instead, we'll train once, save it, then load the model when we want to train more or use if for inference.
+
 ## Section 3 - Convolutional Neural Networks
 * CNNs (or ConvNet) are a class of Deep Learning models that are mostly applied for analyzing visual data like images videos, etc.
 * They usually consist of Multi-Layer Perceptrons (MLP), which are fully-connected Neral Networks, preceded by Convolution Layer(s), which recognizes the patterns in an image.
