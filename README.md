@@ -37,6 +37,10 @@ Here are the sections with a description for each notebook contained in them:
 * Here we will learn to save our trained models. In general, we won't want to train a model everytime you need it.
 * Instead, we'll train once, save it, then load the model when we want to train more or use if for inference.
 
+#### 7. Loading Image Data
+* We have been using ML-ready datasets till now. But the real-world dataset often does not comply with model-standards.
+* In this notebook, we will learn how to use full-sized images of cats and dogs, transform and augment them to make them suitable for our model to train on. Then the model would be trained to differentiate between images of cats and dogs.
+
 ## Section 3 - Convolutional Neural Networks
 * CNNs (or ConvNet) are a class of Deep Learning models that are mostly applied for analyzing visual data like images videos, etc.
 * They usually consist of Multi-Layer Perceptrons (MLP), which are fully-connected Neral Networks, preceded by Convolution Layer(s), which recognizes the patterns in an image.
