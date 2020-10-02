@@ -41,6 +41,11 @@ Here are the sections with a description for each notebook contained in them:
 * We have been using ML-ready datasets till now. But the real-world dataset often does not comply with model-standards.
 * In this notebook, we will learn how to use full-sized images of cats and dogs, transform and augment them to make them suitable for our model to train on. Then the model would be trained to differentiate between images of cats and dogs.
 
+#### 8. Transfer Learning
+* We will use a pre-trained model (densenet121), which was already trained on ImageNet to detect patterns, and use it to classify/predict our own dataset.
+* Transfer learning provides better results as the models have already been trained on much larger datasets, so they are excellent at recognizing general patterns.
+* All we have to do is to freeze the initial portion of the network (called `features`) and add a few layers of fully-connected nodes (called `classifier`). It is the second portion which will specialise the model to our particular dataset.
+
 ## Section 3 - Convolutional Neural Networks
 * CNNs (or ConvNet) are a class of Deep Learning models that are mostly applied for analyzing visual data like images videos, etc.
 * They usually consist of Multi-Layer Perceptrons (MLP), which are fully-connected Neral Networks, preceded by Convolution Layer(s), which recognizes the patterns in an image.
