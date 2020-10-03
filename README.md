@@ -99,3 +99,11 @@ Here are the sections with a description for each notebook contained in them:
 * We will load in a pre-trained VGG Net and freeze select layers to be used as a feature-extractor.
 * The we will load in the content and style images. We will use different layers of the model to extract content style from the respective images.
 * After calculating the Gram Matrix for convolutional layers, we will start implementing the style on a target image, with Content, Style and Total Loss to check if we are getting an accurate Transfer.
+
+## Section 4 - Recurrent Neural Networks
+* RNNs are a class of Neural Networks where connections between nodes have a temporal sequence as well.
+* This allows the network to exhibit a temporal dynamic behavior i.e. they remember their last prediction and it affects their current predicton, along with the input values.
+
+#### 1. Character-Level RNN
+* We will use an LSTM (Long Short-Term Memory), a form of RNN that solves the `vanishing gradient problem` to train on a novel `Anna Karenina`.
+* After training, the model will styart generating its own text based on what it has learned from the training data.
